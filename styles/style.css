@@ -94,38 +94,96 @@ footer{max-width: 1140px; padding: 50px 160px; background-color: #FFFFFF;  }
 .footer-list{list-style: none; margin-bottom: 30px ;}
 .footer-icon{display: flex; gap: 24px; padding-bottom: 212px;}
 
-
-/* responsive  */
-@media screen and (max-width: 768px)  {
-  .hide{display: none;}
-  nav{gap: 200px;}
-  .hero{flex-direction: column-reverse;}
-  .hero-image{width: 394px; align-items: end;}
-
-.card-head{font-size:1.5rem;}
-.card-para{font-size: 0.875rem; max-width: 336px;}
-.product-grid{ grid-template-columns: repeat(2,1fr);}
+@media (max-width: 400px) {
   
+  
+  .hide { display: none; }
+  nav {gap: 2px;
+    align-items: center; justify-content: center;
+  }
 
-.plant-store{flex-direction: column;}
+  .navbar {
+    
+    gap: 10px;
+  }
 
-.deal{margin-top: 143px;}
-.deal-title{font-size: 1.5rem; margin-bottom: 16px;}
-.deal-para{font-size: 0.875rem;}
+  .hero {
+    flex-direction: column;
+    align-items: center;
+    padding: 0 20px;
+  }
 
-.discount{flex-direction: column; margin-top: 61px;}
+  .hero-title {
+    font-size: 2rem;
+    text-align: center;
+  }
 
-.join-title{font-size:1.55rem ;}
-form{padding-right: 50px;}
-input{width: 218px;}
-.subscribe{width: 103px;}
+  .hero-para {
+    font-size: 1rem;
+    text-align: center;
+  }
 
+  .hero-image {
+    margin-top: 30px;
+  }
 
-.footer-banner{flex-direction: column; justify-content: center;}
-.lgo{margin-right: 200px;}
-.footer-list{list-style: none; margin-bottom: 30px ; margin-right: 100px;}
-.footer-nav1{ margin-top: 30px;  }
+  .product-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+  }
 
+  .plant-store {max-width: 361px;
+    flex-direction: column;
+    align-items: center;
+  
+  }
 
+  .plant-right {
+    
+    text-align: center;
+  }
+
+  .deal {
+    padding: 0 30px;
+  }
+
+  .discount {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .discount-left,
+  .discount-right {
+    width: 100% ;
+    margin: 10px 0;
+  }
+
+  .join {width: 100%;
+    
+  }
+
+  input {
+    width:80% ;margin-left: 5px;
+  }
+
+  .subscribe {
+    width: 20%;
+    
+    
+  }
+
+  footer {
+    padding: 20px;
+  }
+
+  .footer-banner {
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer-icon {
+    justify-content: center;
+  }
 }
-
