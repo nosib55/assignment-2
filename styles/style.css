@@ -98,19 +98,16 @@ footer{max-width: 1140px; padding: 50px 160px; background-color: #FFFFFF;  }
   
   
   .hide { display: none; }
-  nav {gap: 2px;
+  nav {gap: 2px; 
     align-items: center; justify-content: center;
   }
 
-  .navbar {
-    
-    gap: 10px;
-  }
+  
 
   .hero {
-    flex-direction: column;
+    flex-direction: column-reverse;
     align-items: center;
-    padding: 0 20px;
+    
   }
 
   .hero-title {
