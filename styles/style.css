@@ -15,6 +15,8 @@ body{background-color: aliceblue;}
 .color2{color:rgba(0, 0, 0, 0.5) ;}
 .color3{color: #000000;}
 
+.hide2{display: none;}
+
 
 /* header  */
 header{margin-top: 30px; max-width: 1140px;}
@@ -85,8 +87,45 @@ input{width: 644px; height: 50px; padding-left: 20px;}
 /* footer  */
 
 footer{max-width: 1140px; padding: 50px 160px; background-color: #FFFFFF;  }
+.footer-banner{display: flex; }
 
 .footer-logo{ max-width: 359px;}
 .footer-txt{ font-size: 1.375rem; font-weight: 500; margin-top: 16px ;}
 .footer-list{list-style: none; margin-bottom: 30px ;}
 .footer-icon{display: flex; gap: 24px; padding-bottom: 212px;}
+
+
+/* responsive  */
+@media screen and (max-width: 768px)  {
+  .hide{display: none;}
+  nav{gap: 200px;}
+  .hero{flex-direction: column-reverse;}
+  .hero-image{width: 394px; align-items: end;}
+
+.card-head{font-size:1.5rem;}
+.card-para{font-size: 0.875rem; max-width: 336px;}
+.product-grid{ grid-template-columns: repeat(2,1fr);}
+  
+
+.plant-store{flex-direction: column;}
+
+.deal{margin-top: 143px;}
+.deal-title{font-size: 1.5rem; margin-bottom: 16px;}
+.deal-para{font-size: 0.875rem;}
+
+.discount{flex-direction: column; margin-top: 61px;}
+
+.join-title{font-size:1.55rem ;}
+form{padding-right: 50px;}
+input{width: 218px;}
+.subscribe{width: 103px;}
+
+
+.footer-banner{flex-direction: column; justify-content: center;}
+.lgo{margin-right: 200px;}
+.footer-list{list-style: none; margin-bottom: 30px ; margin-right: 100px;}
+.footer-nav1{ margin-top: 30px;  }
+
+
+}
+
