@@ -1,0 +1,71 @@
+*{padding: 0px;
+margin: auto;}
+
+.noto-serif{
+  font-family: "Noto Serif", serif;
+  font-style: normal;
+
+    
+}
+
+/* common style  */
+.flex{display: flex;}
+.color1{color:#E95A08 ;}
+.color2{color:rgba(0, 0, 0, 0.5) ;}
+.color3{color: #000000;}
+
+/* header  */
+header{margin-top: 30px; max-width: 1140px;}
+nav{gap: 595px;}
+.navbar{gap: 48px;}
+.nav-item{list-style: none; }
+.nav-link{ text-decoration: none; color: #000000;}
+.color-cg{ color:rgba(0, 0, 0, 0.5) ;}
+
+/* hero  */
+.hero{margin-top: 120px  ; max-width: 1140px; }
+.hero-text{max-width: 570px; margin-top: 162px; }
+.hero-title{font-size: 4.06rem; font-weight: bold;}
+.hero-para{font-size: 1.375rem; margin-top:13px ;}
+.hero-image{width: 100%; margin-top: 106px;}
+
+/* card  */
+main{max-width: 1140px;  margin-top: 135px;}
+.section-title{text-align: center;}
+.card-head{font-size:3.125rem ;}
+.card-para{font-size: 1.466rem;}
+
+.product-grid{display: grid; grid-template-columns: repeat(4,1fr);}
+
+.product-grid{margin-top: 49px;}
+.product-card{ text-align: center; margin-bottom: 30px;}
+.product-title{font-size:1.375rem; margin-top: 30px;}
+.product-price{font-size: 1.375rem; font-weight: bold; margin-top: 20px; margin-bottom: 30px;}
+
+.product-grid button{background-color: #E95A08; color: white; border: none;
+padding:19px 90px ;}
+
+/* shop  */
+.plant-store{ margin-top: 210px; max-width: 1140px;}
+.saller{width: 100%; position: relative;}
+.badge{width: 286px; position: absolute;  }
+
+/* deal  */
+.deal{text-align: center; margin-top: 130px; padding: 0px 140px;}
+.deal-title{font-size: 3.125rem;font-weight: bold; margin-bottom: 30px;}
+.deal-para{font-size:1.375rem ;}
+
+/* off  */
+.discount{margin-top: 130px; max-width: 1140px; justify-content: center;}
+
+.inside-one{background-image: url(../images/deal-ana.png); width: 367px; height: 201px; background-repeat: no-repeat; text-align: center;  border-radius: 14px;}
+.inside-two{background-image: url(../images/deal-bloom.png); width: 367px; height: 197px; background-repeat: no-repeat; text-align: center;  border-radius: 14px; margin-top: 25px; }
+.off-big{color:#FFFFFF ; padding-top: 65px; padding-bottom: 19px; font-size:1.25rem ; font-weight: bold;  }
+.shop{ color: #FFFFFF; font-size: 1rem; }
+
+.discount-right{background-image: url(../images/deal-zabo.png); width:753px ; height: 423px; background-repeat: no-repeat; border-radius: 22px; margin-left: 28px; text-align: center;}
+.off-small{ font-size: 2.5rem; padding-top: 172px; color: #FFFFFF;}
+.now{font-size: 1.75rem; font-weight: 600;}
+
+/* join  */
+.join{width: 1440px; height: 533px;  background-image: url(../images/news-letter-bg.png);  background-repeat:no-repeat; text-align: center;}
